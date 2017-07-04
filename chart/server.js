@@ -5,7 +5,7 @@ var app = express();
 //var Component = require('./src/App.js');
 
 app.get('/', function(request, response) {
-  response.sned('Hello world!\n');
+  response.send('Hello world!\n');
   response.send(html);
 });
 
